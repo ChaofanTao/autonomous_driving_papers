@@ -55,5 +55,5 @@ Papers collection about autonomous driving
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
 
 - **Misc**
-   - Behavious cloning:     
+   - Behavior cloning:     
       - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
