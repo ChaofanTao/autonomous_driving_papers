@@ -4,7 +4,6 @@ Papers collection about autonomous driving
 - **A Famous Repo about Autonomous Driving**  
    [Awesome Autonomous Driving](https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving)
   
-
 - **Trajectory Prediction**
     - 19-ICCV-The Trajectron: Probabilistic Multi-Agent Trajectory Modeling with Dynamic Spatiotemporal Graphs, [[pdf]](https://arxiv.org/pdf/1810.05993.pdf)
     - 19-ICCV-Analyzing the Variety Loss in the Context of Probabilistic Trajectory Prediction, [[pdf]](https://arxiv.org/abs/1907.10178)
