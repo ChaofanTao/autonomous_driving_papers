@@ -1,6 +1,9 @@
 # Autonomous Driving Papers
 Papers collection about autonomous driving
 
+- **A Famous Repo about Autonomous Driving**  
+   [Awesome Autonomous Driving](https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving)
+
 - **Latest Publications**
  <br/> 
  <br/> 
@@ -27,7 +30,6 @@ Papers collection about autonomous driving
     - 16-CVPR-Social LSTM Human Trajectory Prediction in Crowded Spaces, [pdf](http://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf), [pytorch code](https://github.com/quancore/social-lstm)
         - 提出social pooling对空间上相近的人的关系建模，方法是在人工设置大小的grid里，把同一个grid的hidden feature累加。
 
----
 
 - **3D Tracking/Object Detection/Recognition, etc**
     - 19-ICCV-Deep HoughVoting for 3D Object Detection in Point Clouds, [pdf](https://arxiv.org/abs/1904.09664)
@@ -41,7 +43,6 @@ Papers collection about autonomous driving
     - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [pdf](https://arxiv.org/pdf/1904.03751.pdf), [tensorflow code](https://github.com/lightaime/deep_gcns)
         - 把CNN的residual/dense connection和dilated convolutions用在一个56的深层GCN，应用在point clond semantic segmentation
   
----
 
 - **Video Recognition/Prediction** 
     - 19-ICCV-oral-SlowFast Networks for Video Recognition, [pdf](https://arxiv.org/pdf/1812.03982.pdf), (code will be availabe)
