@@ -34,6 +34,8 @@ Papers collection about autonomous driving
     - 19-ICCV-oral-Deep Hough Voting for 3D Object Detection in Point Clouds, [[pdf]](https://arxiv.org/abs/1904.09664)
     - 19-ICCV-PU-GAN: a Point Cloud Upsampling Adversarial Network, [[pdf]](https://arxiv.org/pdf/1907.10844.pdf)
     - 19-CVPR-ApolloCar3D: A Large 3D Car Instance Understanding Benchmark for Autonomous Driving, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Song_ApolloCar3D_A_Large_3D_Car_Instance_Understanding_Benchmark_for_Autonomous_CVPR_2019_paper.pdf)
+    - 19-CVPR-Stereo R-CNN based 3D Object Detection for Autonomous Driving [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Stereo_R-CNN_Based_3D_Object_Detection_for_Autonomous_Driving_CVPR_2019_paper.pdf), [[pytorch code]](https://github.com/HKUST-Aerial-Robotics/Stereo-RCNN)
+    - 19-CVPR-LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Meyer_LaserNet_An_Efficient_Probabilistic_3D_Object_Detector_for_Autonomous_Driving_CVPR_2019_paper.pdf)
     - 19-ICCV-3D-RelNet: Joint Object and Relational Network for 3D Prediction, [[pdf]](https://arxiv.org/pdf/1906.02729.pdf), [[pytorch code]](https://nileshkulkarni.github.io/relative3d/)
     - 19-ICCV-3D Point Cloud Learning for Large-scale Environment Analysis and Place Recognition, [[pdf]](https://arxiv.org/pdf/1812.07050.pdf)
     - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [[pdf]](https://arxiv.org/pdf/1904.03751.pdf), [[tensorflow code]](https://github.com/lightaime/deep_gcns), [[pytorch code]](https://github.com/lightaime/deep_gcns_torch)
@@ -55,5 +57,7 @@ Papers collection about autonomous driving
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
 
 - **Misc**
+   - Paper with Code for [Autonomous Driving] (https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
+](https://paperswithcode.com/task/self-driving-cars)
    - Behavior cloning:     
       - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
