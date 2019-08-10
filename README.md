@@ -11,9 +11,6 @@ Papers collection about autonomous driving
  <br/> 
  <br/> 
   
-  
-
----
 
 - **Trajectory Prediction**
     - 19-ICCV-The Trajectron: Probabilistic Multi-Agent Trajectory Modeling with Dynamic Spatiotemporal Graphs, [[pdf]](https://arxiv.org/pdf/1810.05993.pdf)
@@ -39,7 +36,6 @@ Papers collection about autonomous driving
     - 19-CVPR-ApolloCar3D: A Large 3D Car Instance Understanding Benchmark for Autonomous Driving, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Song_ApolloCar3D_A_Large_3D_Car_Instance_Understanding_Benchmark_for_Autonomous_CVPR_2019_paper.pdf)
     - 19-ICCV-3D-RelNet: Joint Object and Relational Network for 3D Prediction, [[pdf]](https://arxiv.org/pdf/1906.02729.pdf), [[pytorch code]](https://nileshkulkarni.github.io/relative3d/)
     - 19-ICCV-3D Point Cloud Learning for Large-scale Environment Analysis and Place Recognition, [[pdf]](https://arxiv.org/pdf/1812.07050.pdf)
-    - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
     - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [[pdf]](https://arxiv.org/pdf/1904.03751.pdf), [[tensorflow code]](https://github.com/lightaime/deep_gcns), [[pytorch code]](https://github.com/lightaime/deep_gcns_torch)
         - 把CNN的residual/dense connection和dilated convolutions用在一个56的深层GCN，应用在point clond semantic segmentation
   
@@ -57,3 +53,7 @@ Papers collection about autonomous driving
         - 主要是提供了一个仿真的汽车意图有关的数据集
     - 17-ICCV-Encouraging LSTMs to Anticipate Actions Very Early, [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Aliakbarian_Encouraging_LSTMs_to_ICCV_2017_paper.pdf), [[theano+keras code]](https://github.com/mangalutsav/Multi-Stage-LSTM-for-Action-Anticipation)
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
+
+- **Misc**
+   - Behavious cloning:     
+      - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
