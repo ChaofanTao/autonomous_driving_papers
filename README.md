@@ -18,7 +18,7 @@ Papers collection about autonomous driving
 - **Trajectory Prediction**
     - 19-ICCV-The Trajectron: Probabilistic Multi-Agent Trajectory Modeling with Dynamic Spatiotemporal Graphs, [[pdf]](https://arxiv.org/pdf/1810.05993.pdf)
     - 19-ICCV-Analyzing the Variety Loss in the Context of Probabilistic Trajectory Prediction, [[pdf]](https://arxiv.org/abs/1907.10178)
-    - 19-ICCV-PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings, [[pdf]](https://arxiv.org/pdf/1905.01296.pdf), [project](https://sites.google.com/view/precog)
+    - 19-ICCV-PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings, [[pdf]](https://arxiv.org/pdf/1905.01296.pdf), [[project]](https://sites.google.com/view/precog)
     - 18-CVPR-Social GAN Socially Acceptable Trajectories with GANs, [[pdf]](https://arxiv.org/pdf/1803.10892.pdf), [[pytorch code]](https://github.com/agrimgupta92/sgan)
         - 把trajectory prediction看成点列生成问题，所以用GAN-based architecture。
         - 在top k confident predictions用L2 loss, 增加variety。
