@@ -22,7 +22,7 @@ Papers collection about autonomous driving
     - 18-CVPR-Social GAN Socially Acceptable Trajectories with GANs, [pdf](https://arxiv.org/pdf/1803.10892.pdf), [pytorch code](https://github.com/agrimgupta92/sgan)
         - 把trajectory prediction看成点列生成问题，所以用GAN-based architecture。
         - 在top k confident predictions用L2 loss, 增加variety。
-    - 19-AAAI-TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents, [pdf](https://arxiv.org/pdf/1811.02146.pdf), [pytorch code](https://github.com/huang-xx/TrafficPredict)
+    - 19-AAAI-oral-TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents, [pdf](https://arxiv.org/pdf/1811.02146.pdf), [pytorch code](https://github.com/huang-xx/TrafficPredict)
         - 提出 instance layer来建模实例之间的运动和相互影响； 用category layer来建模同类别实例之间的相似性。
         - 用统一的模型预测汽车、人、自行车的轨迹。
     - 18-CVPR Trajnet Workshop -Convolutional Social Pooling for Vehicle Trajectory Prediction, [pdf](https://arxiv.org/abs/1805.06771)
