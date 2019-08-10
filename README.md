@@ -40,12 +40,12 @@ Papers collection about autonomous driving
     - 19-ICCV-3D-RelNet: Joint Object and Relational Network for 3D Prediction, [[pdf]](https://arxiv.org/pdf/1906.02729.pdf), [[pytorch code]](https://nileshkulkarni.github.io/relative3d/)
     - 19-ICCV-3D Point Cloud Learning for Large-scale Environment Analysis and Place Recognition, [[pdf]](https://arxiv.org/pdf/1812.07050.pdf)
     - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
-    - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [[pdf]](https://arxiv.org/pdf/1904.03751.pdf), [[tensorflow code]](https://github.com/lightaime/deep_gcns) [[pytorch code]](https://github.com/lightaime/deep_gcns_torch)
+    - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [[pdf]](https://arxiv.org/pdf/1904.03751.pdf), [[tensorflow code]](https://github.com/lightaime/deep_gcns), [[pytorch code]](https://github.com/lightaime/deep_gcns_torch)
         - 把CNN的residual/dense connection和dilated convolutions用在一个56的深层GCN，应用在point clond semantic segmentation
   
 
 - **Video Recognition/Prediction** 
-    - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be availabe)
+    - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be available)
     - 19-CVPR-Time-Conditioned Action Anticipation in One Shot, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf)
     - 19-CVPR-Peeking into the Future: Predicting Future Person Activities and Locations in Videos, [[pdf]](https://github.com/google/next-prediction), [[tensorflow code]](https://github.com/google/next-prediction)
         - 一个利用videos做行人的action prediction和trajectory prediction的统一模型。
