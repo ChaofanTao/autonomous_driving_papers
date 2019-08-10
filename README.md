@@ -11,7 +11,8 @@ Papers collection about autonomous driving
     - 19-ICCV-PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings, [[pdf]](https://arxiv.org/pdf/1905.01296.pdf), [[project]](https://sites.google.com/view/precog)
     - 19-AAAI-oral-TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents, [[pdf]](https://arxiv.org/pdf/1811.02146.pdf), [[pytorch code]](https://github.com/huang-xx/TrafficPredict)
         - 提出 instance layer来建模实例之间的运动和相互影响； 用category layer来建模同类别实例之间的相似性。
-        - 用统一的模型预测汽车、人、自行车的轨迹。    
+        - 用统一的模型预测汽车、人、自行车的轨迹。  
+    - 19-CVPR-precognition workshop Social Ways: Learning Multi-Modal Distributions of Pedestrian Trajectories with GANs, [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Precognition/Amirian_Social_Ways_Learning_Multi-Modal_Distributions_of_Pedestrian_Trajectories_With_GANs_CVPRW_2019_paper.pdf), [[pytorch code]](https://github.com/amiryanj/socialways)_
     - 18-CVPR-Social GAN Socially Acceptable Trajectories with GANs, [[pdf]](https://arxiv.org/pdf/1803.10892.pdf), [[pytorch code]](https://github.com/agrimgupta92/sgan)
         - 把trajectory prediction看成点列生成问题，所以用GAN-based architecture。
         - 在top k confident predictions用L2 loss, 增加variety。
@@ -35,7 +36,7 @@ Papers collection about autonomous driving
         - 把CNN的residual/dense connection和dilated convolutions用在一个56的深层GCN，应用在point clond semantic segmentation
   
 
-- **Video Recognition/Prediction** 
+- **Action Recognition/Prediction** 
     - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be available)
     - 19-CVPR-Time-Conditioned Action Anticipation in One Shot, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf)
     - 19-CVPR-Peeking into the Future: Predicting Future Person Activities and Locations in Videos, [[pdf]](https://github.com/google/next-prediction), [[tensorflow code]](https://github.com/google/next-prediction)
@@ -50,6 +51,13 @@ Papers collection about autonomous driving
     - 17-ICCV-Encouraging LSTMs to Anticipate Actions Very Early, [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Aliakbarian_Encouraging_LSTMs_to_ICCV_2017_paper.pdf), [[theano+keras code]](https://github.com/mangalutsav/Multi-Stage-LSTM-for-Action-Anticipation)
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
 
+- **Video Prediction/Generation**
+      - 18-ICML-Hierarchical Long-term Video Prediction without Supervision, [[pdf]](http://web.eecs.umich.edu/~honglak/icml2018-unsupHierarchicalVideoPred.pdf), [[tensorflow code]](https://github.com/brain-research/long-term-video-prediction-without-supervision)
+      - 18-arXiv-Stochastic Adversarial Video Prediction, [[pdf]](https://arxiv.org/abs/1804.01523), [[tensorflow code]](https://github.com/alexlee-gk/video_prediction)
+      - 18-arXiv-Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning, [[pdf]](https://arxiv.org/abs/1605.08104), [[keras code]](https://github.com/coxlab/prednet)
+      - 18-NeurlPS-Learning to Decompose and Disentangle Representations for Video Prediction, [[pdf]](https://arxiv.org/abs/1806.04166), [[pytorch+pyro code]](https://github.com/jthsieh/DDPAE-video-prediction)
+      - 16-arXiv-Learning a Driving Simulator, [[pdf]](http://arxiv.org/abs/1608.01230), [[tensorflow code]](https://github.com/commaai/research)
+      - 16-arXiv-Deep Multi-Scale Video Prediction Beyond Mean Square Error, [[pdf]](https://arxiv.org/abs/1511.05440), [[tensorflow code]](https://github.com/dyelax/Adversarial_Video_Generation)
 
 - **Miscellaneous**
    - **Paper with Code** for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
