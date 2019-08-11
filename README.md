@@ -43,6 +43,7 @@ Papers and code collection about autonomous driving
   
 
 - **Action Recognition/Prediction** 
+    - A famous repo about action recognition: [[Awesome Action Recognition]](https://github.com/jinwchoi/awesome-action-recognition)
     - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be available)
     - 19-CVPR-Time-Conditioned Action Anticipation in One Shot, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf)
     - 19-CVPR-Peeking into the Future: Predicting Future Person Activities and Locations in Videos, [[pdf]](https://github.com/google/next-prediction), [[tensorflow code]](https://github.com/google/next-prediction)
@@ -56,6 +57,7 @@ Papers and code collection about autonomous driving
     - 17-ICCV-Online Real-time Multiple Spatiotemporal Action Localisation and Prediction, [[pdf]](https://arxiv.org/pdf/1611.08563v6.pdf), [[pytorch code]](https://github.com/gurkirt/realtime-action-detection)
          - real-time SSD (Single Shot MultiBox Detector) CNNs to regress and classify detection boxes in each video frame potentially containing an action of interest
          - propose an online algorithm to incrementally construct and label "action tubes" from the SSD frame level detections
+    - 17-ICCV-Temporal Action Detection with Structured Segment Networks, [[pdf]](https://arxiv.org/abs/1704.06228), [[pytorch code]](https://github.com/yjxiong/action-detection)
     - 17-ICCV-Encouraging LSTMs to Anticipate Actions Very Early, [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Aliakbarian_Encouraging_LSTMs_to_ICCV_2017_paper.pdf), [[theano+keras code]](https://github.com/mangalutsav/Multi-Stage-LSTM-for-Action-Anticipation)
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
 
