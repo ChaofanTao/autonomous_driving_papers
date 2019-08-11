@@ -51,7 +51,7 @@ Papers and code collection about autonomous driving
    - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
     - 18-ECCV-Action Anticipation By Predicting Future Dynamic Images, [[pdf]](https://arxiv.org/abs/1808.00141)
         - 用dynamic images的重建L2 loss, dynamic images的分类loss， RGB frame的重建L2 loss训练
-    - 18-arXiv-Temporal Recurrent Networks for Online Action Detection, [[pdf]](https://arxiv.org/pdf/1811.07391.pdf), [[pytorch code]](https://github.com/rajskar/CS763Project)
+    - 19-arXiv-Temporal Recurrent Networks for Online Action Detection, [[pdf]](https://arxiv.org/pdf/1811.07391.pdf), [[pytorch code]](https://github.com/rajskar/CS763Project)
          - It jointly models the historical and future temporal context under the constraint of the online setting
     - 17-ICCV-Online Real-time Multiple Spatiotemporal Action Localisation and Prediction, [[pdf]](https://arxiv.org/pdf/1611.08563v6.pdf), [[pytorch code]](https://github.com/gurkirt/realtime-action-detection)
          - real-time SSD (Single Shot MultiBox Detector) CNNs to regress and classify detection boxes in each video frame potentially containing an action of interest
