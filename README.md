@@ -70,6 +70,7 @@ Papers and code collection about autonomous driving
     - 16-arXiv-Deep Multi-Scale Video Prediction Beyond Mean Square Error, [[pdf]](https://arxiv.org/abs/1511.05440), [[tensorflow code]](https://github.com/dyelax/Adversarial_Video_Generation)  
 
 - **Dataset**
+    - [[HDD]](https://usa.honda-ri.com/hdd) 18-CVPR. [[pdf]](https://arxiv.org/pdf/1811.02307.pdf). A dataset for (own) driving scene understanding. 
     - [[KITTI]](http://www.cvlibs.net/datasets/kitti/index.php) Tasks of interest are: stereo evaluation, optical flow evaluation, depth estimation, visual odometry, 3D object detection and 3D tracking, semantic segmentation
     - [[APOLLO Scape]](http://apolloscape.auto/) Scene Parsing ,Car Instance,Lane Segmentation,Self Localization,Trajectory, Detection/Tracking, Stereo
     - [[nuScenes]](https://www.nuscenes.org) The first large-scale dataset to provide data from the entire sensor suite of an autonomous vehicle (6 cameras, 1 LIDAR, 5 RADAR, GPS, IMU). The goal of nuScenes is to look at the entire sensor suite. The full dataset includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes.
