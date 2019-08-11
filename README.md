@@ -71,7 +71,8 @@ Papers and code collection about autonomous driving
     - [[Berkeley DeepDrive]](https://bdd-data.berkeley.edu/) Object detection, instance segmentation ,drivable decision, lane marking. Explore 100,000 HD video sequences of over 1,100-hour driving experience across many different times in the day, weather conditions, and driving scenarios. Our video sequences also include GPS locations, IMU data, and timestamps.
     - [[VIENA2]](https://sites.google.com/view/viena2-project/home) Synthetic driving data for driving manoeuvre, accidents, pedestrian intentions and front car intentions. 15K HD videos with frame size of 1920x1280, corresponding to 2.25M annotated frames. Each video contains 150 frames captured at 30fps depicting a single action from one scenario.
 
-
+- **Challenge**
+    - [[19-CVPR WAD]](http://wad.ai/challenge.html)
 
 - **Miscellaneous**
    - **Paper with Code** for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
