@@ -1,5 +1,5 @@
 # Autonomous Driving Papers with Code
-Papers collection about autonomous driving
+Papers and code collection about autonomous driving
 
 - **A Famous Repo for Autonomous Driving**  
    [Awesome Autonomous Driving](https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving)
@@ -32,7 +32,7 @@ Papers collection about autonomous driving
          - SOTA for 3D Multi-Object Tracking on KITTI
     - 19-CVPR-PointPillars: Fast Encoders for Object Detection from Point Clouds, [[PDF]](https://arxiv.org/pdf/1812.05784v2.pdf), [[pytorch code]](https://github.com/nutonomy/second.pytorch)
     - 19-CVPR-LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Meyer_LaserNet_An_Efficient_Probabilistic_3D_Object_Detector_for_Autonomous_Driving_CVPR_2019_paper.pdf)
-    - 19-CVPR-Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[pdf]](https://arxiv.org/pdf/1812.07179v5.pdf), [[]](https://github.com/mileyan/pseudo_lidar)
+    - 19-CVPR-Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[pdf]](https://arxiv.org/pdf/1812.07179v5.pdf), [[pytorch code]](https://github.com/mileyan/pseudo_lidar)
     - 19-ICCV-3D-RelNet: Joint Object and Relational Network for 3D Prediction, [[pdf]](https://arxiv.org/pdf/1906.02729.pdf), [[pytorch code]](https://nileshkulkarni.github.io/relative3d/)
     - 19-ICCV-3D Point Cloud Learning for Large-scale Environment Analysis and Place Recognition, [[pdf]](https://arxiv.org/pdf/1812.07050.pdf)
     - 19-ICCV-oral-Can GCNs Go as Deep as CNNs? [[pdf]](https://arxiv.org/pdf/1904.03751.pdf), [[tensorflow code]](https://github.com/lightaime/deep_gcns), [[pytorch code]](https://github.com/lightaime/deep_gcns_torch)
@@ -51,9 +51,6 @@ Papers collection about autonomous driving
    - 19-ICCV-Exploring the Limitations of Behavior Cloning for Autonomous Driving [[pdf]](https://arxiv.org/pdf/1904.08980.pdf), [[python code]](https://github.com/felipecode/coiltraine/blob/master/docs/exploring_limitations.md)
     - 18-ECCV-Action Anticipation By Predicting Future Dynamic Images, [[pdf]](https://arxiv.org/abs/1808.00141)
         - 用dynamic images的重建L2 loss, dynamic images的分类loss， RGB frame的重建L2 loss训练
-    - 18-ACCV-VIENA2: A Driving Anticipation Dataset,
-[[pdf]](https://arxiv.org/abs/1810.09044), [[dataset]](https://sites.google.com/view/viena2-project/home)
-        - 主要是提供了一个仿真的汽车意图有关的数据集
     - 17-ICCV-Encouraging LSTMs to Anticipate Actions Very Early, [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Aliakbarian_Encouraging_LSTMs_to_ICCV_2017_paper.pdf), [[theano+keras code]](https://github.com/mangalutsav/Multi-Stage-LSTM-for-Action-Anticipation)
         - 使用了CNN提取visual feature (context), 使用Class Activation Map提取motion feature
 
@@ -64,6 +61,17 @@ Papers collection about autonomous driving
     - 18-NeurlPS-Learning to Decompose and Disentangle Representations for Video Prediction, [[pdf]](https://arxiv.org/abs/1806.04166), [[pytorch+pyro code]](https://github.com/jthsieh/DDPAE-video-prediction)  
     - 16-arXiv-Learning a Driving Simulator, [[pdf]](http://arxiv.org/abs/1608.01230), [[tensorflow code]](https://github.com/commaai/research)  
     - 16-arXiv-Deep Multi-Scale Video Prediction Beyond Mean Square Error, [[pdf]](https://arxiv.org/abs/1511.05440), [[tensorflow code]](https://github.com/dyelax/Adversarial_Video_Generation)  
+
+- **Dataset**
+    - [[KITTI]](http://www.cvlibs.net/datasets/kitti/index.php) Tasks of interest are: stereo evaluation, optical flow evaluation, depth estimation, visual odometry, 3D object detection and 3D tracking, semantic segmentation
+    - [[APOLLO Scape]](http://apolloscape.auto/) Scene Parsing ,Car Instance,Lane Segmentation,Self Localization,Trajectory, Detection/Tracking, Stereo
+    - [[nuScenes]](https://www.nuscenes.org) The first large-scale dataset to provide data from the entire sensor suite of an autonomous vehicle (6 cameras, 1 LIDAR, 5 RADAR, GPS, IMU). The goal of nuScenes is to look at the entire sensor suite. The full dataset includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes.
+    - [[Caltech Lanes]](http://www.mohamedaly.info/datasets/caltech-lanes) The archive below inlucdes 1225 individual frames as taken from a camera mounted on Alice in addition to the labeled lanes. The dataset is divided into four individual clips: cordova1 with 250 frames, cordova2 with 406 frames, washington1 with 337 frames, and washington2 with 232 frames. 
+    - [[Virtual KITTI]](https://europe.naverlabs.com/Research/Computer-Vision/Proxy-Virtual-Worlds/) 2D/3D object detection, multi-object tracking
+    - [[Berkeley DeepDrive]](https://bdd-data.berkeley.edu/) Object detection, instance segmentation ,drivable decision, lane marking. Explore 100,000 HD video sequences of over 1,100-hour driving experience across many different times in the day, weather conditions, and driving scenarios. Our video sequences also include GPS locations, IMU data, and timestamps.
+    - [[VIENA2]](https://sites.google.com/view/viena2-project/home) Synthetic driving data for driving manoeuvre, accidents, pedestrian intentions and front car intentions. 15K HD videos with frame size of 1920x1280, corresponding to 2.25M annotated frames. Each video contains 150 frames captured at 30fps depicting a single action from one scenario.
+
+
 
 - **Miscellaneous**
    - **Paper with Code** for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
