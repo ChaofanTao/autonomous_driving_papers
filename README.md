@@ -43,7 +43,7 @@ Papers and code collection about autonomous driving
   
 
 - **Action Recognition/Prediction** 
-    - A famous repo about action recognition: [[Awesome Action Recognition]](https://github.com/jinwchoi/awesome-action-recognition)
+    - __A famous repo for action recognition__: [[Awesome Action Recognition]](https://github.com/jinwchoi/awesome-action-recognition)
     - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be available)
     - 19-CVPR-Time-Conditioned Action Anticipation in One Shot, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf)
     - 19-CVPR-Peeking into the Future: Predicting Future Person Activities and Locations in Videos, [[pdf]](https://github.com/google/next-prediction), [[tensorflow code]](https://github.com/google/next-prediction)
@@ -80,8 +80,9 @@ Papers and code collection about autonomous driving
     - [[VIENA2]](https://sites.google.com/view/viena2-project/home) Synthetic driving data for driving manoeuvre, accidents, pedestrian intentions and front car intentions. 15K HD videos with frame size of 1920x1280, corresponding to 2.25M annotated frames. Each video contains 150 frames captured at 30fps depicting a single action from one scenario.
 
 - **Challenge**
-    - [[19-CVPR WAD]](http://wad.ai/challenge.html)
+    - [[19-CVPR WAD]](http://wad.ai/challenge.html) Workshop on AD
 
 - **Miscellaneous**
-   - **Paper with Code** for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
+   - [[Paper with Code]] for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
 ](https://paperswithcode.com/task/self-driving-cars)
+   - [[MMAcition]](https://github.com/open-mmlab/mmaction) 
