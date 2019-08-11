@@ -83,6 +83,6 @@ Papers and code collection about autonomous driving
     - [[19-CVPR WAD]](http://wad.ai/challenge.html) Workshop on AD
 
 - **Miscellaneous**
-   - [[Paper with Code]] for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
+   - Paper with Code for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
 ](https://paperswithcode.com/task/self-driving-cars)
    - [[MMAcition]](https://github.com/open-mmlab/mmaction) 
