@@ -46,6 +46,7 @@ Papers and code collection about autonomous driving
     - __A famous repo for action recognition__: [[Awesome Action Recognition]](https://github.com/jinwchoi/awesome-action-recognition)
     - 19-ICCV-oral-SlowFast Networks for Video Recognition, [[pdf]](https://arxiv.org/pdf/1812.03982.pdf), (code will be available)
     - 19-CVPR-Time-Conditioned Action Anticipation in One Shot, [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf)
+    - 19-CVPR-oral-Relational Action Forecasting, [[pdf]](https://arxiv.org/abs/1904.04231)
     - 19-CVPR-Peeking into the Future: Predicting Future Person Activities and Locations in Videos, [[pdf]](https://github.com/google/next-prediction), [[tensorflow code]](https://github.com/google/next-prediction)
         - 一个利用videos做行人的action prediction和trajectory prediction的统一模型。
         - 通过object detection，person key-point detection, scene segmentation, bounding boxes of objects and persons 的预训练模型（除了最后一个）来分别提appearance，motion，person-scene interaction, person-object interaction的visual feature。
@@ -86,5 +87,5 @@ Papers and code collection about autonomous driving
    - Paper with Code for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
 ](https://paperswithcode.com/task/self-driving-cars)
    - [[MMAcition]](https://github.com/open-mmlab/mmaction) 
-   - [[3D ResNet PyTorch]](https://github.com/kenshohara/3D-ResNets-PyTorch)
+   - [[3D ResNet PyTorch]](https://github.com/kenshohara/3D-ResNets-PyTorch) Video Classification using 3D ResNet
    - [[PyTorch Video Research]](https://github.com/gsig/PyVideoResearch) A unified framework for Action classification, Action localization, Spatial Action localization, Inpainting, Video Alignment, Triplet Classification.
