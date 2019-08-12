@@ -86,3 +86,5 @@ Papers and code collection about autonomous driving
    - Paper with Code for [Autonomous Driving](https://paperswithcode.com/task/autonomous-driving/codeless) and [Self-Driving Cars
 ](https://paperswithcode.com/task/self-driving-cars)
    - [[MMAcition]](https://github.com/open-mmlab/mmaction) 
+   - [[3D ResNet PyTorch]](https://github.com/kenshohara/3D-ResNets-PyTorch)
+   - [[PyTorch Video Research]](https://github.com/gsig/PyVideoResearch) A unified framework for Action classification, Action localization, Spatial Action localization, Inpainting, Video Alignment, Triplet Classification.
